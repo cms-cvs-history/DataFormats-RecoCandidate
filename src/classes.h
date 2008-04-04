@@ -100,9 +100,9 @@ namespace {
     std::multimap<reco::isodeposit::Direction::Distance,float> mumdf1;
     reco::IsoDeposit isod1;
     std::vector<reco::IsoDeposit> visod1;
-    reco::IsoDepositMap idvm;
-    reco::IsoDepositMap::const_iterator idvmci;
-    edm::Wrapper<reco::IsoDepositMap> w_idvm;
+    reco::IsoDepositMapNew idvm;
+    reco::IsoDepositMapNew::const_iterator idvmci;
+    edm::Wrapper<reco::IsoDepositMapNew> w_idvm;
     
 
   }
