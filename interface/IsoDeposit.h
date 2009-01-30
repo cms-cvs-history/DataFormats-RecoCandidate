@@ -22,7 +22,7 @@
 #include <cmath>
 #include <string>
 #include <vector>
-
+#include <typeinfo>
 
 namespace reco { 
   namespace isodeposit {
